@@ -1,0 +1,120 @@
+<ion-view view-title="IT服务台" hide-back-button="true" hide-nav-bar="true"
+          style="font-size: 16px!important">
+    <link href="css/ITstyle.css" rel="stylesheet">
+    <ion-header-bar class="xyb_mow_head_bar">
+        <div class="buttons" style="width: 35px;padding: 8px;">
+            <!--<img style="width: 15px;height: 20px;" src="img/back_white.png">-->
+        </div>
+        <h1 class="title xyb_app_head_bar_title" style="font-size: 18px!important; text-align:center;    width: calc(100% - 100px);">IT服务台</h1>
+        <div class="buttons">
+
+        </div>
+    </ion-header-bar>
+    <ion-content class="scroll-content ionic-scroll" style="background: #f6f6f6 !important;">
+        <div class="scroll"
+             style="transform: translate3d(0px, 0px, 0px) scale(1);">
+            <div dp-content-footer="">
+                <div class="dp-content-notop" style="padding:60px 0px 15px;">
+                    <div>
+                        <!--<div style="height:130px">
+                            <center><img src="img/webQueryLogo.png" style="width: 125px;margin-top: -10px;"></center>
+                        </div>-->
+                        <div class="list dp-receive-list" style="margin-top: 0px;padding:0px 3.7%;font-size:14px;">
+                            <div style="font-size: 1.15em;"><b>IT服务台：</b></div>
+                            <div class="dp-div item-input  item-icon-right dp-label-margintop" style="margin-top: 20px;font-size:1em;" data-tap-disabled="true">
+                                <span class="dp-required">*</span>
+
+                                <div class="dp-text-width">服务名称：</div>
+                                <select ng-model="itServiceEntity.serviceType" name="serviceType" style="margin-top: 5px;font-size:1em; width: 200px" ng-options="x for x in type"
+                                        ng-change="changeClassify(itServiceEntity.serviceType)">
+                                    <option value="">请选择</option>
+                                </select>
+                            </div>
+                            <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;" data-tap-disabled="true">
+                                <span class="dp-required">*</span>
+
+                                <div class="dp-text-width">服务分类：</div>
+                                <select ng-model="itServiceEntity.serviceClassify" name="serviceClassify" style="margin-top: 5px;font-size:1em; width: 200px" ng-options="x for x in type2">
+                                    <option value="">请选择</option>
+                                </select>
+                            </div>
+                            <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                <span class="dp-required">*</span>
+
+                                <div class="dp-text-width">上报工号：</div>
+                                <b><input type="tel" name="subJobNum" placeholder="请输入工号" ng-model="itServiceEntity.subJobNum" maxlength="10" ng-keyup="clearNoNum(itServiceEntity,'subJobNum')"></b>
+                            </div>
+                            <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                <span class="dp-required">*</span>
+                                <div class="dp-text-width">账号密码：</div>
+                                <b><input type="password" name="password" placeholder="请输入问题所属账号密码" ng-model="itServiceEntity.password" maxlength="20"></b>
+                            </div>
+
+                            <div ng-hide="myradio">
+                                <div class="dp-div  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                    <div>
+                                        <span class="dp-required">*</span>
+                                        总部职能：&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                        <b>
+                                            <input type="radio" name="departFunction" value="true" ng-model="itServiceEntity.departFunction" ng-change="isSelect(itServiceEntity.departFunction)">是
+                                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="departFunction" ng-model="itServiceEntity.departFunction" value="false" ng-change="isSelect(itServiceEntity.departFunction)">否
+                                        </b>
+                                    </div>
+                                </div>
+                                <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                    <span class="dp-required">*</span>
+                                    <div class="dp-text-width">区域：&nbsp&nbsp&nbsp</div>
+                                    <select ng-model="itServiceEntity.regionOne" name="regionOne" style="margin-top: 5px;font-size:1em;width: 100px" ng-options="x for x in type3" ng-change="changeArea(itServiceEntity.regionOne)">
+                                        <option value="">请选择</option>
+                                    </select>
+                                    <select ng-model="itServiceEntity.regionTwo" name="regionTwo" style="margin-top: 5px;font-size:1em; width: 100px" ng-options="x for x in type4">
+                                        <option value="">请选择</option>
+                                    </select>
+                                </div>
+                                <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                    <span class="dp-required">*</span>
+
+                                    <div class="dp-text-width">位置备注：</div>
+                                    <b><input type="text" name="position" placeholder="请输入位置备注" ng-model="itServiceEntity.position" maxlength="11"></b>
+                                </div>
+                            </div>
+
+
+
+                            <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                <span class="dp-required">*</span>
+
+                                <div class="dp-text-width">手机号码：</div>
+                                <b><input type="tel" name="phoneNum" placeholder="请输入手机号码" ng-model="itServiceEntity.phoneNum" maxlength="11" ng-keyup="clearNoNum(itServiceEntity,'phoneNum')"></b>
+                            </div>
+                            <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                <span class="dp-required">*</span>
+
+                                <div class="dp-text-width">服务摘要：</div>
+                                <b><input type="text" name="serviceSummary" placeholder="请输入服务摘要" ng-model="itServiceEntity.serviceSummary" maxlength="35"></b>
+                            </div>
+                            <div class="dp-div item-input  item-icon-right dp-label-margintop" style="font-size:1em;">
+                                <span class="dp-required">*</span>
+                                <div class="dp-text-width">问题描述：</div>
+                                    <b>
+                                        <textarea class="angle-textarea" name="detailInfo" placeholder="① 请尽量提供具体的操作模块（如FOSS系统问题中的开单模块）、问题的相关信息（如运单号、交接单号、工作流号等）、操作步骤等。② PDA问题请及时拷贝数据包。" ng-model="itServiceEntity.detailInfo" rows="7" maxlength="200"
+                                                  style="margin-top: 12px;"></textarea>
+                                    </b>
+                                </div>
+                            <div class="dp-market" name="itError">{{errorText}}</div>
+                            <button class="button button-full dp-long-button" ng-click="submitItService(flage)" ng-model="flage" id="button" ng-disabled="!flage" style="margin-bottom:30px;width:92.6%;margin-left:3.7%;">
+                                <b>提&nbsp;&nbsp;交</b>
+                            </button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div></ion-content>
+</ion-view>
+<style>
+    .dp-text-width {
+    width: 75px;
+}
+</style>

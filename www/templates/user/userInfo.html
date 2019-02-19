@@ -1,0 +1,112 @@
+﻿<ion-view view-title="编辑个人信息" hide-back-button="true" hide-nav-bar="true">
+        <ion-header-bar class="xyb_mow_head_bar">
+            <div class="buttons" style="width: 35px;padding: 8px;" ng-click="goBackBtn()">
+                <img style="width: 15px;height: 20px;" src="img/back_white.png">
+            </div>
+            <h1 class="title xyb_app_head_bar_title" style="font-size: 18px!important; text-align:center;">编辑个人信息</h1>
+            <div class="buttons">
+                <!--<button class="button xyb_app_head_bar_rightBtn" style="background-color: #ffffff;" ng-click="register()">注册</button>-->
+                <img class="lwg_mow_home_head_right_rethomebtn" src="img/home.png" ng-click="goHome()">
+                <img ng-if="!showMenuFlag" class="xyb_mow_home_head_right_btn" src="img/menu-hide.png" ng-click="showMenu()">
+                <img ng-if="showMenuFlag" class="xyb_mow_home_head_right_btn" src="img/menu-show.png" ng-click="hideMenu()">
+            </div>
+        </ion-header-bar>
+    <div id="xyb_mask" class="xyb_mask" ng-class="{true: 'xyb_mow_mask_show', false: 'xyb_mow_mask_hide'}[showMenuFlag]" ng-click="hideMenu()"></div>
+    <div id="menuUp" class="xyb_menu_up" ng-class="{true: 'xyb_mow_mask_show', false: 'xyb_mow_mask_hide'}[showMenuFlag]">
+        <ion-item style="background-color: #ffffff;color: black;padding: 0px;">
+            <div class="xyb_menu_up_box" style="border-right: 1px solid gainsboro;border-bottom: 1px solid gainsboro;" ng-click="toQueryByText()">
+                <img src="img/service_cargo.png" class="xyb_mow_home_top_img">
+                <div class="xyb_menu_up_box_font">
+                    货物追踪
+                </div>
+            </div>
+            <div class="xyb_menu_up_box" style="border-right: 1px solid gainsboro;border-bottom: 1px solid gainsboro;" ng-click="toWebQuery()">
+                <img src="img/webQuery.png" class="xyb_mow_home_top_img">
+                <div class="xyb_menu_up_box_font">
+                    网点查询
+                </div>
+            </div>
+            <div class="xyb_menu_up_box" style="width: 34%;border-bottom: 1px solid gainsboro;" ng-click="toSend()">
+                <img src="img/toSend.png" class="xyb_mow_home_top_img">
+                <div class="xyb_menu_up_box_font">
+                    我要寄件
+                </div>
+            </div>
+            <div class="xyb_menu_up_box" style="border-right: 1px solid gainsboro;" ng-click="toDispatchScope()">
+                <img src="img/dispatchScope.png" class="xyb_mow_home_top_img">
+                <div class="xyb_menu_up_box_font">
+                    收派范围
+                </div>
+            </div>
+            <div class="xyb_menu_up_box" style="border-right: 1px solid gainsboro;" ng-click="toPrice()">
+                <img src="img/service_price_time.png" class="xyb_mow_home_top_img">
+                <div class="xyb_menu_up_box_font">
+                    价格时效
+                </div>
+            </div>
+            <div class="xyb_menu_up_box" style="width: 34%;" ng-click="toQueryList()">
+                <img src="img/top_meOrder.png" class="xyb_mow_home_top_img">
+                <div class="xyb_menu_up_box_font">
+                    我的快运
+                </div>
+            </div>
+        </ion-item>
+    </div>
+
+    <ion-content class="grayBackground" style="overflow:hidden;">
+        <ion-item ng-click="toEditHead()" style="padding:10px 16px">
+            <div class="lineTitle" style="line-height:45px;">头像</div>
+            <div class="lineValue" >
+                <img ng-src="{{output.headimgurl}}" style="width:40px; height:40px; border-radius: 50px;">
+            </div>
+            <div class="lineGo" ng-click="goChangePic()">
+                <!--<img src="img/enter.png" style="margin-top:30%;" />-->
+            </div>
+        </ion-item>
+        <ion-item>
+            <div class="lineTitle" style="line-height:30px;">用户名</div>
+            <div class="lineValue" style="line-height:30px;">
+                <span ng-bind="output.userName"></span>
+            </div>
+        </ion-item>
+        <ion-item ng-click="goNickName()">
+            <div class="lineTitle" style="line-height:30px;">昵称</div>
+            <div class="lineValue" style="line-height:30px;">
+                <span ng-bind="output.nickName"></span>
+            </div>
+            <div class="lineGo">
+                <img src="img/enter.png" />
+            </div>
+        </ion-item>
+        <!--<ion-item>
+            <div class="lineTitle">性别</div>
+            <div class="lineValue">
+                XXXXX
+            </div>
+            <div class="lineGo" ng-click="goGender()">
+                <img src="img/enter.png" />
+            </div>
+        </ion-item>-->
+        <ion-item ng-click="goMobile()">
+            <div class="lineTitle" style="line-height:30px;">手机号</div>
+            <div class="lineValue" style="line-height:30px;">
+                <span ng-bind="output.mobile"></span>
+            </div>
+            <div class="lineGo">
+                <img src="img/enter.png" />
+            </div>
+        </ion-item>
+        <div class="blankLine">
+            安全登录
+        </div>
+        <ion-item ng-click="goPwd()">
+            <div class="lineTitle" style="line-height:30px;">登录密码</div>
+            <div class="lineValue" style="line-height:30px;">
+                修改
+            </div>
+            <div class="lineGo">
+                <img src="img/enter.png" />
+            </div>
+        </ion-item>
+    </ion-content>
+</ion-view>
