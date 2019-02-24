@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f6dd53;
+        stroke: url(#linear-gradient-1);
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        filter: url(#filter-chain-1);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #7f5725;
+      }
+
+      .cls-2 {
+        filter: url(#filter-chain-2);
+      }
+
+      .cls-3 {
+        filter: url(#filter-chain-3);
+      }
+    </style>
+
+    <linearGradient id="linear-gradient-1" gradientUnits="userSpaceOnUse" x1="23.469" y1="45" x2="23.469" y2="1">
+      <stop offset="0" stop-color="#d69912"/>
+      <stop offset="1" stop-color="#dec54f"/>
+    </linearGradient>
+    <filter id="filter-chain-1" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.414" result="dropBlur"/>
+      <feFlood flood-color="#040000" flood-opacity="0.25"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+      <feImage x="1.96875" y="1" width="43.00005" height="44" preserveAspectRatio="none" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNDMuMDAwMDUiIGhlaWdodD0iNDQiPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIyMS41IiB5MT0iNDQiIHgyPSIyMS41Ij4KICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNmNWMwMWIiLz4KICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNWRmNGUiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="shadowed" result="gradientFill"/>
+      <feGaussianBlur stdDeviation="0.667" in="SourceAlpha" result="innerGlowBlur"/>
+      <feFlood flood-color="#f9f7bd" flood-opacity="0.26"/>
+      <feComposite operator="out" in2="innerGlowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend in2="gradientFill" result="innerGlow"/>
+      <feOffset dy="1" in="SourceAlpha"/>
+      <feGaussianBlur result="innerShadowBlur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.55"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend in2="innerGlow" result="innerShadow"/>
+    </filter>
+    <filter id="filter-chain-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0.545" dy="0.839" in="SourceAlpha"/>
+      <feGaussianBlur result="dropBlur"/>
+      <feFlood flood-color="#f7e87e" flood-opacity="0.75"/>
+      <feComposite operator="in" in2="dropBlur" result="dropShadowComp"/>
+      <feComposite in="SourceGraphic" result="shadowed"/>
+      <feFlood flood-color="#69441e"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="shadowed" result="solidFill"/>
+      <feOffset dx="1" dy="1.732" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="innerShadowBlur"/>
+      <feFlood flood-color="#040000" flood-opacity="0.3"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="multiply" in2="solidFill" result="innerShadow"/>
+    </filter>
+    <filter id="filter-chain-3" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#69441e"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend in2="SourceGraphic" result="solidFill"/>
+      <feOffset dx="1" dy="1.732" in="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="innerShadowBlur"/>
+      <feFlood flood-color="#040000" flood-opacity="0.3"/>
+      <feComposite operator="out" in2="innerShadowBlur"/>
+      <feComposite operator="in" in2="SourceAlpha"/>
+      <feBlend mode="multiply" in2="solidFill" result="innerShadow"/>
+    </filter>
+  </defs>
+  <g style="fill: #f6dd53; filter: url(#filter-chain-1)">
+    <path d="M42.003,9.952 L26.416,1.641 C24.792,0.775 22.135,0.775 20.510,1.641 L4.923,9.952 C3.299,10.818 1.970,12.943 1.970,14.675 L1.970,31.298 C1.970,33.030 3.299,35.155 4.923,36.021 L20.510,44.332 C22.135,45.198 24.792,45.198 26.416,44.332 L42.003,36.021 C43.628,35.155 44.956,33.030 44.956,31.298 L44.956,14.675 C44.956,12.943 43.628,10.818 42.003,9.952 Z" id="path-1" style="stroke: inherit; filter: none; fill: inherit" class="cls-1"/>
+  </g>
+  <use xlink:href="#path-1" style="stroke: url(#linear-gradient-1); filter: none; fill: none"/>
+  <path d="M18.060,16.569 L30.501,16.569 L30.436,20.752 L18.060,20.752 L18.060,16.569 Z" class="cls-2"/>
+  <path d="M39.816,24.762 L29.594,24.892 L26.230,14.510 L43.310,14.510 L39.816,24.762 ZM6.051,24.827 L3.732,14.510 L20.291,14.510 L17.386,24.827 L6.051,24.827 Z" class="cls-3"/>
+  <path d="M35.711,31.818 C35.711,31.818 30.079,37.784 23.506,38.579 C19.706,39.039 15.546,37.424 15.546,37.424 L16.232,34.162 C16.232,34.162 19.421,35.895 23.221,35.435 C29.794,34.640 35.744,27.599 35.744,27.599 L35.711,31.818 Z" class="cls-2"/>
+</svg>
