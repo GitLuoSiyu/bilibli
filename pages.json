@@ -44,23 +44,40 @@
         ,{
             "path" : "pages/my/my",
             "style" : {
+				"navigationBarTitleText":"",
 				"app-plus":{
-					"navigationBarTitleText":"",
 					"titleNView":{
 						"buttons":[{
-							"fontSrc":"/static/iconfont.ttf",
-							"text":"\ue695",
-							"float":"right",
-							"fontSize":"16px",
 							"color":"#333333",
-							"colorPressed":"#333333"
+							"colorPressed":"#333333",
+							"float":"right",
+							"fontSize":"18px",
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue695"
 						},{
-							"fontSrc":"/static/iconfont.ttf",
-							"text":"\ue61a",
+							"color":"#333333",
+							"colorPressed":"#333333",
 							"float":"right",
 							"fontSize":"16px",
-							"color":"#333333",
-							"colorPressed":"#333333"
+							"fontSrc":"/static/iconfont.ttf",
+							"text":"\ue61a"
+						}]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/create/create",
+            "style" : {
+				"navigationBarTitleText":"发布作品",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"color":"#FB7299",
+							"colorPressed":"#FB85A7",
+							"float":"right",
+							"fontSize":"14px",
+							"text":"发布"
 						}]
 					}
 				}
