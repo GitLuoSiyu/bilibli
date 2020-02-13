@@ -10,8 +10,8 @@
 		</view>
 		<view class="f-divider"></view>
 		<!--  -->
-		<f-list-item icon="iconshipin" title="我的作品" :showRightIcon="false" :rightText="26"></f-list-item>
-		<f-list-item icon="iconshoucang1" title="收藏"></f-list-item>
+		<f-list-item icon="iconshipin" title="我的作品" :showRightIcon="false" :rightText="26" @click="navigateTo('user-video')"></f-list-item>
+		<f-list-item icon="iconshoucang1" title="收藏" @click="navigateTo('user-fava')"></f-list-item>
 		<f-list-item icon="iconguanzhu" title="关注" :rightText="365"></f-list-item>
 		<f-list-item icon="iconlishi" title="历史记录"></f-list-item>
 		<view class="f-divider"></view>
@@ -24,14 +24,14 @@
 			<view class="position-absolute left-0 right-0 bg-white bottom-0 animated faster fadeIn">
 				<view class="flex" style="height: 200rpx;">
 					<!-- 单集 -->
-					<view class="flex-1 flex justify-center align-center flex-column">
+					<view class="flex-1 flex justify-center align-center flex-column" hover-class="bg-light" @click="navigateTo('create')">
 						<text class="iconfont icondingdanwenjian flex justify-center align-center text-white bg-primary rounded-circle" style="width: 80rpx; height: 80rpx;"></text>
 						<text class="font mt-1 text-muted">单集</text>
 					</view>
 					<!-- 连载 -->
-					<view class="flex-1 flex justify-center align-center flex-column">
+					<view class="flex-1 flex justify-center align-center flex-column" hover-class="bg-light">
 						<text class="iconfont icondingdanwenjian flex justify-center align-center text-white bg-primary rounded-circle" style="width: 80rpx; height: 80rpx;"></text>
-						<text class="font mt-1 text-muted">单集</text>
+						<text class="font mt-1 text-muted">连载</text>
 					</view>
 				</view>
 				<view class="f-divider"></view>
@@ -66,6 +66,12 @@ export default {
 		
 		hidePopup() {
 			this.$refs.popup.hide()
+		},
+		
+		navigateTo(path) {
+			uni.navigateTo({
+				url:"/pages/" + path + "/" + path,
+			})
 		}
 	}
 }

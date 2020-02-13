@@ -28,45 +28,51 @@
 </template>
 
 <script>
-	import formItem from '@/components/common/form-item.vue';
-	import mainBigButton from '@/components/common/main-big-button.vue';
-	export default {
-		components: {
-			formItem,
-			mainBigButton
-		},
-		data() {
-			return {
-				form:{
-					cover:"",
-					title:"",
-					category:"",
-					desc:""
-				},
-				range:["分类1","分类2","分类3"]
-			}
-		},
-		methods: {
-			// 点击添加封面图
-			upload(){
-				uni.chooseImage({
-				    count: 1,
-				    sizeType: ['compressed'],
-				    success: (res)=> {
-				        this.form.cover = res.tempFilePaths[0]
-				    }
-				});
+import formItem from '@/components/common/form-item.vue';
+import mainBgButton from '@/components/common/main-bg-button.vue';	
+
+export default {
+	components: {
+		formItem,mainBgButton
+	},
+	data() {
+		return {
+			form:{
+				cover:"",
+				title:"",
+				category:"",
+				desc:""
 			},
-			change(e){
-				this.form.category = this.range[e.detail.value]
-			},
-			submit(){
-				console.log('发布');
-			}
+			range:["分类1","分类2","分类3"]
+			
+		};
+	},
+	methods: {
+		// 点击添加封面图
+		upload() {
+			console.log('点击添加封面图')
+			uni.chooseImage({
+				count:1,
+				sizeType:["compressed"],
+				success: (res) => {
+					this.form.cover = res.tempFilePaths[0]
+				}
+			});
+		},
+		
+		// picker change
+		change(e) {
+			// console.log(e.detail.value)
+			this.form.category = this.range[e.detail.value]
+		},
+		
+		
+		// 发布
+		submit() {
+			console.log('发布')
 		}
 	}
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

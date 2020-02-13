@@ -73,14 +73,26 @@
 				"app-plus":{
 					"titleNView":{
 						"buttons":[{
-							"color":"#FB7299",
-							"colorPressed":"#FB85A7",
+							"color": "#FB7299",
+							"colorPressed": "#FB85A7",
 							"float":"right",
 							"fontSize":"14px",
-							"text":"发布"
+							"text": "发布"
 						}]
 					}
 				}
+			}
+        }
+        ,{
+            "path" : "pages/user-video/user-video",
+            "style" : {
+				"navigationBarTitleText":"发布作品"
+			}
+        }
+        ,{
+            "path" : "pages/user-fava/user-fava",
+            "style" : {
+				"navigationBarTitleText":"我的收藏"
 			}
         }
     ],
