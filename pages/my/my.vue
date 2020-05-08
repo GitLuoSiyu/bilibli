@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<!-- head-img -->
-		<navigator url="../login/login">
+		<navigator url="../user-space/user-space">
 			<view class="p-3 flex align-center">
 				<image src="../../static/demo/6.jpg" style="width: 120rpx; height: 120rpx;" class="bg-light rounded-circle flex-shrink"></image>
 				<view class="flex flex-column pl-3 flex-1">

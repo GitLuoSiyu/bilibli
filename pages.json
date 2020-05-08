@@ -115,6 +115,22 @@
             	}
             }
         }
+        ,{
+            "path" : "pages/user-space/user-space",
+            "style" : {
+				"app-plus": {
+					"titleNView": {
+						"type":"transparent",
+						"buttons": [
+							{
+								"type":"menu",
+								"float":"right"
+							}
+						]
+					}
+				}
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

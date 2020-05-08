@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<view :style="'height:' + statusBarHeight + 'px'" class=""></view>
-		<view style="height: 44px;" class="flex align-center">
+		<view style="height: 44px;" class="flex align-center" @click="back">
 			<view class="flex justify-center align-center animated fast" style="width: 44px; height: 44px;" hover-class="text-main pulse">
 				<text class="iconfont iconfanhui font-lg"></text>
 			</view>
@@ -76,6 +76,13 @@ export default {
 		// 更改状态
 		changeType(){
 			this.type = this.type === "login" ? "register" : "login"
+		},
+		
+		// 返回上一页
+		back() {
+			uni.navigateBack({
+				delta: 1
+			})
 		}
 	}
 }
