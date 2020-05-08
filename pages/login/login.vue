@@ -14,11 +14,11 @@
 		<view class="px-4">
 			<input type="text" value="" class="uni-input bg-light rounded mb-4" placeholder="手机号/用户名/邮箱" />
 			<input type="text" value="" class="uni-input bg-light rounded mb-4" placeholder="请输入密码" />
-			<input type="text" value="" class="uni-input bg-light rounded mb-4" placeholder="请输入确认密码" />
+			<input v-if="type === 'login'" type="text" value="" class="uni-input bg-light rounded mb-4" placeholder="请输入确认密码" />
 		</view>
 		
 		<view class="px-4">
-			<main-big-button>登 录</main-big-button>
+			<main-big-button>{{type === "login" ? "登 录" : "注 册"}}</main-big-button>
 		</view>
 		
 		<view class="flex justify-center align-center py-5">
@@ -46,9 +46,9 @@
 		</view>
 		
 		<!-- 注册 -->
-		<view class="flex justify-center align-center py-5">
+		<view class="flex justify-center align-center py-5" @click="changeType">
 			<view class="text-muted mx-2 font-sm">
-				注册账号
+				{{ type === "login" ? "注册账号" : "去登录" }}
 			</view>
 		</view>
 		
@@ -64,6 +64,7 @@ export default {
 	},
 	data() {
 		return {
+			type: "login",
 			statusBarHeight:null,
 		}
 	},
@@ -72,6 +73,10 @@ export default {
 	},
 	methods: {
 		
+		// 更改状态
+		changeType(){
+			this.type = this.type === "login" ? "register" : "login"
+		}
 	}
 }
 </script>
