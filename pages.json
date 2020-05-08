@@ -103,6 +103,18 @@
             "path" : "pages/user-register/user-register",
             "style" : {}
         }
+        ,{
+            "path" : "pages/user-video-list/user-video-list",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+            	"app-plus":{
+            		"titleNView":false
+            	}
+            }
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

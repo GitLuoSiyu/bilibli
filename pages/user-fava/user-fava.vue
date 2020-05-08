@@ -1,10 +1,12 @@
 <template>
-	<view v-for="(item, index) in list" :key="index">
-		<uni-swipe-action>
-			<uni-swipe-action-item :options="options" @click="bindClick">
-				<media-list :item="item" :index="index"></media-list>
-			</uni-swipe-action-item>
-		</uni-swipe-action>
+	<view class="">
+		<view v-for="(item, index) in list" :key="index">
+			<uni-swipe-action>
+				<uni-swipe-action-item :options="options" @click="bindClick">
+					<media-list :item="item" :index="index"></media-list>
+				</uni-swipe-action-item>
+			</uni-swipe-action>
+		</view>s
 	</view>
 </template>
 
@@ -63,7 +65,7 @@ export default {
 	},
 	methods: {
 		
-		// 
+		// 点击取消收藏
 		bindClick(e,item) {
 			console.log(e,item);
 			uni.showToast({

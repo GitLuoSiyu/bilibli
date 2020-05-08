@@ -1,14 +1,17 @@
 <template>
 	<view>
 		<!-- head-img -->
-		<view class="p-3 flex align-center">
-			<image src="../../static/demo/6.jpg" style="width: 120rpx; height: 120rpx;" class="bg-light rounded-circle flex-shrink"></image>
-			<view class="flex flex-column pl-3 flex-1">
-				<view class="font-md text-dark">summer<text class="font-sm text-muted ml-3">男 广东</text></view>
-				<text class="font-sm text-muted">迪沙学院编程创始人</text>
+		<navigator url="../login/login">
+			<view class="p-3 flex align-center">
+				<image src="../../static/demo/6.jpg" style="width: 120rpx; height: 120rpx;" class="bg-light rounded-circle flex-shrink"></image>
+				<view class="flex flex-column pl-3 flex-1">
+					<view class="font-md text-dark">summer<text class="font-sm text-muted ml-3">男 广东</text></view>
+					<text class="font-sm text-muted">迪沙学院编程创始人</text>
+				</view>
 			</view>
-		</view>
+		</navigator>
 		<view class="f-divider"></view>
+		
 		<!--  -->
 		<f-list-item icon="iconshipin" title="我的作品" :showRightIcon="false" :rightText="26" @click="navigateTo('user-video')"></f-list-item>
 		<f-list-item icon="iconshoucang1" title="收藏" @click="navigateTo('user-fava')"></f-list-item>
