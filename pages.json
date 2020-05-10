@@ -10,7 +10,7 @@
 							"backgroundColor":"#F6F7F8",
 							"borderRadius":"40px",
 							"disabled":true,
-							"placeholder":"精彩热搜：帝莎编程学院",
+							"placeholder":"精彩热搜：华为P40",
 							"placeholderColor":"#959FA0"
 						},
 						"buttons":[{
@@ -34,7 +34,7 @@
 							"backgroundColor":"#F6F7F8",
 							"borderRadius":"40px",
 							"disabled":true,
-							"placeholder":"精彩热搜：帝莎编程学院",
+							"placeholder":"精彩热搜：华为P40",
 							"placeholderColor":"#959FA0"
 						}
 					}
@@ -130,6 +130,10 @@
 					}
 				}
 			}
+        }
+        ,{
+            "path" : "pages/activity/activity",
+            "style" : {}
         }
     ],
 	"globalStyle": {
