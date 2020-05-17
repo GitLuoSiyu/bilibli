@@ -1,0 +1,298 @@
+{
+  "keys": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+  "middleware": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+  "security": {
+    "csrf": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+      "type": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "protocolWhiteList": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "allowMethods": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "host": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "username": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "password": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "port": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "database": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "timezone": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+    "define": {
+      "freezeTableName": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+      "timestamps": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+      "paranoid": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+      "createdAt": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+      "updatedAt": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+      "deletedAt": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js",
+      "underscored": "D:\\workspace\\toa\\bilibli\\server\\config\\config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "sequelize-cli": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "D:\\workspace\\toa\\bilibli\\server\\node_modules\\egg\\config\\config.default.js"
+}

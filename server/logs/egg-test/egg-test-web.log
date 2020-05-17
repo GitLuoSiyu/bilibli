@@ -1,0 +1,38 @@
+2020-05-03 22:50:24,694 ERROR 1188 [-/::1/-/39ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\toa\koa-project\egg-test\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\toa\koa-project\egg-test\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\toa\koa-project\egg-test\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\toa\koa-project\egg-test\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\toa\koa-project\egg-test\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\toa\koa-project\egg-test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\toa\koa-project\egg-test\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\toa\koa-project\egg-test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\toa\koa-project\egg-test\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\toa\koa-project\egg-test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1188
+hostname: shlw10nh3258
+
+2020-05-17 08:50:35,534 WARN 11912 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:50:38,553 WARN 11912 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:50:41,569 WARN 11912 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:50:49,649 WARN 5124 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:50:52,673 WARN 5124 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:50:55,694 WARN 5124 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:56:30,450 WARN 7024 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:56:33,467 WARN 7024 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 08:56:36,483 WARN 7024 Sequelize Error: connect ECONNREFUSED 127.0.0.1:3306, sleep 1 seconds to retry...
+2020-05-17 09:10:25,675 INFO 14820 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:28:47,825 INFO 19648 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:30:14,146 INFO 23328 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:36:50,882 INFO 22868 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:36:56,715 INFO 13668 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:36:59,180 INFO 22828 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:50:18,304 INFO 13144 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:50:27,572 INFO 7236 [egg-sequelize](3ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:53:11,492 INFO 17588 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:53:16,963 INFO 14824 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:53:42,890 INFO 22028 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:54:26,892 INFO 12804 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:55:14,810 INFO 8648 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2020-05-17 09:56:40,681 INFO 11372 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result

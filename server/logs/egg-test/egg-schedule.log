@@ -1,0 +1,210 @@
+2020-05-03 22:48:49,055 INFO 1188 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-03 22:48:49,055 INFO 1188 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-03 22:48:49,055 INFO 1188 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-03 22:48:49,442 INFO 11412 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 20470567ms at 2020-05-04 04:30:00.008
+2020-05-03 22:48:49,442 INFO 11412 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 4270558ms at 2020-05-04 00:00:00.000
+2020-05-03 22:48:49,443 INFO 11412 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 4271558ms at 2020-05-04 00:00:01.001
+2020-05-03 22:57:07,151 INFO 12420 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 19972857ms at 2020-05-04 04:30:00.008
+2020-05-03 22:57:07,151 INFO 12420 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 3772849ms at 2020-05-04 00:00:00.000
+2020-05-03 22:57:07,152 INFO 12420 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 3773849ms at 2020-05-04 00:00:01.001
+2020-05-03 22:57:06,739 INFO 11480 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-03 22:57:06,739 INFO 11480 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-03 22:57:06,739 INFO 11480 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-05 10:53:26,047 INFO 8464 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-05 10:53:26,047 INFO 8464 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-05 10:53:26,047 INFO 8464 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-05 10:53:27,227 INFO 11444 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 63392778ms at 2020-05-06 04:30:00.005
+2020-05-05 10:53:27,228 INFO 11444 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 47192773ms at 2020-05-06 00:00:00.001
+2020-05-05 10:53:27,229 INFO 11444 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 47193772ms at 2020-05-06 00:00:01.001
+2020-05-07 09:38:32,854 INFO 10420 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-07 09:38:32,855 INFO 10420 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-07 09:38:32,855 INFO 10420 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-07 09:38:33,946 INFO 7384 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67886061ms at 2020-05-08 04:30:00.007
+2020-05-07 09:38:33,947 INFO 7384 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 51686054ms at 2020-05-08 00:00:00.001
+2020-05-07 09:38:33,948 INFO 7384 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 51687053ms at 2020-05-08 00:00:01.001
+2020-05-09 12:35:01,656 INFO 2484 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:35:01,656 INFO 2484 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:35:01,656 INFO 2484 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:35:03,452 INFO 12212 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 57296554ms at 2020-05-10 04:30:00.006
+2020-05-09 12:35:03,454 INFO 12212 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 41096547ms at 2020-05-10 00:00:00.001
+2020-05-09 12:35:03,456 INFO 12212 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 41097546ms at 2020-05-10 00:00:01.002
+2020-05-09 12:36:04,721 INFO 7460 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:36:04,721 INFO 7460 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:36:04,721 INFO 7460 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:36:16,798 INFO 14804 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:36:16,798 INFO 14804 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:36:16,798 INFO 14804 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:36:30,065 INFO 9696 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:36:30,065 INFO 9696 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:36:30,065 INFO 9696 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:38:21,666 INFO 15052 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:38:21,666 INFO 15052 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:38:21,666 INFO 15052 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:40:50,764 INFO 13716 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:40:50,764 INFO 13716 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:40:50,764 INFO 13716 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:40:59,050 INFO 13360 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:40:59,050 INFO 13360 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:40:59,050 INFO 13360 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:43:12,670 INFO 7864 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:43:12,670 INFO 7864 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:43:12,670 INFO 7864 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:46:35,715 INFO 10996 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:46:35,715 INFO 10996 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:46:35,715 INFO 10996 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:47:25,699 INFO 14340 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:47:25,699 INFO 14340 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:47:25,699 INFO 14340 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:47:49,053 INFO 15356 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:47:49,054 INFO 15356 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:47:49,054 INFO 15356 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:48:55,649 INFO 11524 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:48:55,649 INFO 11524 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:48:55,649 INFO 11524 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:53:21,094 INFO 7824 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:53:21,094 INFO 7824 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:53:21,094 INFO 7824 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:55:06,871 INFO 5920 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:55:06,871 INFO 5920 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:55:06,871 INFO 5920 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:59:34,581 INFO 6980 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 12:59:34,581 INFO 6980 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 12:59:34,581 INFO 6980 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 12:59:34,726 INFO 4964 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 55825277ms at 2020-05-10 04:30:00.003
+2020-05-09 12:59:34,726 INFO 4964 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 39625274ms at 2020-05-10 00:00:00.000
+2020-05-09 12:59:34,726 INFO 4964 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 39626274ms at 2020-05-10 00:00:01.000
+2020-05-09 13:02:06,161 INFO 15568 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:02:06,162 INFO 15568 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:02:06,162 INFO 15568 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:02:23,604 INFO 16200 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 55656399ms at 2020-05-10 04:30:00.003
+2020-05-09 13:02:23,604 INFO 16200 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 39456396ms at 2020-05-10 00:00:00.000
+2020-05-09 13:02:23,604 INFO 16200 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 39457396ms at 2020-05-10 00:00:01.000
+2020-05-09 13:02:23,474 INFO 16096 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:02:23,474 INFO 16096 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:02:23,474 INFO 16096 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:18:08,269 INFO 16376 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:18:08,269 INFO 16376 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:18:08,269 INFO 16376 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:18:09,358 INFO 13316 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 54710648ms at 2020-05-10 04:30:00.006
+2020-05-09 13:18:09,360 INFO 13316 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 38510641ms at 2020-05-10 00:00:00.001
+2020-05-09 13:18:09,360 INFO 13316 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 38511640ms at 2020-05-10 00:00:01.000
+2020-05-09 13:27:17,929 INFO 14956 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:27:17,929 INFO 14956 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:27:17,929 INFO 14956 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:29:19,833 INFO 14696 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:29:19,833 INFO 14696 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:29:19,833 INFO 14696 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:30:10,110 INFO 15552 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 53989892ms at 2020-05-10 04:30:00.002
+2020-05-09 13:30:10,110 INFO 15552 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 37789890ms at 2020-05-10 00:00:00.000
+2020-05-09 13:30:10,111 INFO 15552 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 37790890ms at 2020-05-10 00:00:01.001
+2020-05-09 13:30:09,980 INFO 15632 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:30:09,980 INFO 15632 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:30:09,980 INFO 15632 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:30:54,408 INFO 16840 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 53945594ms at 2020-05-10 04:30:00.002
+2020-05-09 13:30:54,408 INFO 16840 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 37745592ms at 2020-05-10 00:00:00.000
+2020-05-09 13:30:54,409 INFO 16840 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 37746592ms at 2020-05-10 00:00:01.001
+2020-05-09 13:30:54,284 INFO 9384 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:30:54,284 INFO 9384 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:30:54,284 INFO 9384 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:51:09,692 INFO 8448 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:51:09,692 INFO 8448 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:51:09,693 INFO 8448 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 13:51:22,363 INFO 17476 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 13:51:22,363 INFO 17476 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 13:51:22,363 INFO 17476 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-09 14:21:36,143 INFO 10868 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 50903859ms at 2020-05-10 04:30:00.002
+2020-05-09 14:21:36,143 INFO 10868 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 34703857ms at 2020-05-10 00:00:00.000
+2020-05-09 14:21:36,143 INFO 10868 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 34704857ms at 2020-05-10 00:00:01.000
+2020-05-09 14:21:36,005 INFO 10424 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-09 14:21:36,005 INFO 10424 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-09 14:21:36,005 INFO 10424 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:33:39,054 INFO 796 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:33:39,054 INFO 796 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:33:39,054 INFO 796 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:33:40,638 INFO 7592 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71779368ms at 2020-05-18 04:30:00.006
+2020-05-17 08:33:40,639 INFO 7592 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 55579362ms at 2020-05-18 00:00:00.001
+2020-05-17 08:33:40,640 INFO 7592 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 55580361ms at 2020-05-18 00:00:01.001
+2020-05-17 08:39:42,368 INFO 2892 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:39:42,368 INFO 2892 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:39:42,368 INFO 2892 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:40:40,503 INFO 7716 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:40:40,503 INFO 7716 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:40:40,503 INFO 7716 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:45:02,371 INFO 12044 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:45:02,371 INFO 12044 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:45:02,371 INFO 12044 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:45:26,401 INFO 6800 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:45:26,401 INFO 6800 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:45:26,401 INFO 6800 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:45:30,627 INFO 4308 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:45:30,627 INFO 4308 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:45:30,627 INFO 4308 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:46:48,308 INFO 11524 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:46:48,308 INFO 11524 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:46:48,308 INFO 11524 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:46:57,523 INFO 1340 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:46:57,523 INFO 1340 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:46:57,523 INFO 1340 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:50:27,052 INFO 11912 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:50:27,052 INFO 11912 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:50:27,052 INFO 11912 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:50:46,768 INFO 5124 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:50:46,768 INFO 5124 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:50:46,768 INFO 5124 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 08:56:27,618 INFO 7024 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 08:56:27,618 INFO 7024 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 08:56:27,618 INFO 7024 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:10:25,739 INFO 19536 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69574265ms at 2020-05-18 04:30:00.004
+2020-05-17 09:10:25,740 INFO 19536 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53374261ms at 2020-05-18 00:00:00.001
+2020-05-17 09:10:25,740 INFO 19536 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53375260ms at 2020-05-18 00:00:01.000
+2020-05-17 09:10:25,297 INFO 14820 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:10:25,297 INFO 14820 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:10:25,297 INFO 14820 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:28:46,915 INFO 19648 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:28:46,915 INFO 19648 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:28:46,915 INFO 19648 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:28:47,918 INFO 18744 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 68472089ms at 2020-05-18 04:30:00.007
+2020-05-17 09:28:47,919 INFO 18744 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52272082ms at 2020-05-18 00:00:00.001
+2020-05-17 09:28:47,920 INFO 18744 [Timer] D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52273081ms at 2020-05-18 00:00:01.001
+2020-05-17 09:30:13,726 INFO 23328 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:30:13,726 INFO 23328 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:30:13,726 INFO 23328 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:36:50,418 INFO 22868 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:36:50,418 INFO 22868 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:36:50,418 INFO 22868 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:36:56,081 INFO 13668 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:36:56,081 INFO 13668 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:36:56,081 INFO 13668 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:36:58,406 INFO 22828 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:36:58,406 INFO 22828 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:36:58,406 INFO 22828 [egg-schedule]: register schedule D:\toa\koa-project\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:50:16,122 INFO 13144 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:50:16,122 INFO 13144 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:50:16,122 INFO 13144 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:50:18,368 INFO 2340 [Timer] D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67181637ms at 2020-05-18 04:30:00.005
+2020-05-17 09:50:18,369 INFO 2340 [Timer] D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 50981632ms at 2020-05-18 00:00:00.001
+2020-05-17 09:50:18,370 INFO 2340 [Timer] D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50982631ms at 2020-05-18 00:00:01.001
+2020-05-17 09:50:26,313 INFO 7236 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:50:26,313 INFO 7236 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:50:26,313 INFO 7236 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:50:27,666 INFO 14024 [Timer] D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 67172340ms at 2020-05-18 04:30:00.006
+2020-05-17 09:50:27,667 INFO 14024 [Timer] D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 50972333ms at 2020-05-18 00:00:00.000
+2020-05-17 09:50:27,668 INFO 14024 [Timer] D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 50973333ms at 2020-05-18 00:00:01.001
+2020-05-17 09:53:10,302 INFO 17588 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:53:10,302 INFO 17588 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:53:10,302 INFO 17588 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:53:15,402 INFO 14824 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:53:15,402 INFO 14824 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:53:15,402 INFO 14824 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:53:41,409 INFO 22028 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:53:41,409 INFO 22028 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:53:41,409 INFO 22028 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:54:25,676 INFO 12804 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:54:25,676 INFO 12804 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:54:25,677 INFO 12804 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:55:13,442 INFO 8648 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:55:13,442 INFO 8648 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:55:13,442 INFO 8648 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-05-17 09:56:39,867 INFO 11372 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-05-17 09:56:39,867 INFO 11372 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-05-17 09:56:39,867 INFO 11372 [egg-schedule]: register schedule D:\workspace\toa\bilibli\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

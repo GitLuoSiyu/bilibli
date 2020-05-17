@@ -1,0 +1,15 @@
+2020-05-03 22:50:24,685 ERROR 1188 [-/::1/-/39ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (D:\toa\koa-project\egg-test\node_modules\egg\lib\application.js:266:15)
+    at Object.get cookies [as cookies] (D:\toa\koa-project\egg-test\node_modules\egg\app\extend\context.js:22:66)
+    at Object.get [egg-security#CSRF_SECRET] (D:\toa\koa-project\egg-test\node_modules\egg-security\app\extend\context.js:91:35)
+    at Object.ensureCsrfSecret (D:\toa\koa-project\egg-test\node_modules\egg-security\app\extend\context.js:104:13)
+    at csrf (D:\toa\koa-project\egg-test\node_modules\egg-security\lib\middlewares\csrf.js:15:11)
+    at dispatch (D:\toa\koa-project\egg-test\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at D:\toa\koa-project\egg-test\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\toa\koa-project\egg-test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (D:\toa\koa-project\egg-test\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\toa\koa-project\egg-test\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1188
+hostname: shlw10nh3258
+
