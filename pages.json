@@ -139,7 +139,17 @@
             "path" : "pages/detail-video/detail-video",
             "style" : {
 				"app-plus":{
-					"titleNView": false
+					"titleNView": false,
+					"subNVues":[{
+						"id":"top",
+						"path":"./pages/detail-video/subNVue/video",
+						"style": {
+							"position":"dock",
+							"dock":"top",
+							"width":"100%",
+							"height":"225px"
+						}
+					}]
 				}
 			}
         }
