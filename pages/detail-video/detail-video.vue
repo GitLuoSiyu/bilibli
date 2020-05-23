@@ -1,31 +1,24 @@
 <template>
-	<view style="line-height: 1; overflow-y: hidden;">
-		<!-- // 视频 -->
-		<video style="height: 225px;width: 100%;" :src="detail.src" :poster="detail.poster" controls></video>
-
-		<scroll-view scroll-y="true" :style="'height:' + scrollH + 'px'">
-			<view class="border-bottom border-secondary flex align-stretch bg-white" style="height:80rpx; position: fixed; left: 0; right: 0; top: 225px;z-index: 100;">
-				<view v-for="(item, index) in tabBars" :key="index" class="flex-1 flex align-center justify-center" @click="changeTab(index)">
-					<text
-						class="font py-1"
-						style="border-bottom:5rpx solid;"
-						:class="tabIndex === index ? 'text-main border-main' : ''"
-						:style="tabIndex === index ? 'border-bottom: 5rpx solid' : ''"
-					>
-						{{ item.name }}
-					</text>
+	<view style="line-height: 1;overflow-y: hidden;">
+		<video :src="detail.src" :poster="detail.poster" style="height: 225px;width: 750rpx;" controls></video>
+		<scroll-view scroll-y="true" :style="'height:'+scrollH+'px;'">
+			<view class="border-bottom border-light-secondary flex align-stretch bg-white" style="height: 80rpx;position: fixed;left: 0;right: 0;top: 225px;z-index: 100;">
+				<view class="flex-1 flex align-center justify-center"
+				v-for="(item,index) in tabBars" :key="index"
+				@click="changeTab(index)">
+					<text class="font py-1" 
+					:class="tabIndex === index ? 'text-main border-main':''"
+					:style="tabIndex === index ? 'border-bottom: 5rpx solid;' : ''">{{item.name}}</text>
 				</view>
 			</view>
-
 			<view style="height: 80rpx;"></view>
-
-			<!-- 内容区 -->
+			
 			<!-- 简介 -->
 			<view v-if="tabIndex === 0" class="animated fadeIn fast">
 				<view class="py-2 px-3 flex align-center">
 					<image src="/static/demo/6.jpg" style="width: 80rpx;height: 80rpx;" class="mr-3 rounded-circle"></image>
 					<view class="flex flex-column">
-						<text class="text-main font-md">玄机科技</text>
+						<text class="text-main font-md">昵称</text>
 						<text class="font-sm text-muted" style="line-height: 1;">369 粉丝</text>
 					</view>
 					<view class="flex align-center justify-center rounded bg-main text-white py-1 px-2 ml-auto" hover-class="bg-main-hover">
@@ -42,33 +35,28 @@
 					<text class="font-sm">6910</text>
 					<text class="font-sm ml-1">今日 10:00</text>
 				</view>
-				
-				
-				<!-- 滚动合集 -->
+				<!-- 滚动 -->
 				<view class="py-3 border-top border-bottom border-light-secondary">
 					<view class="flex align-center px-3">
 						<text class="font-md">选集</text>
-						<view class="flex align-center text-muted ml-auto" @click="openPopup">
-							共9集
-							<text class="iconfont iconjinru ml-1"></text>
+						<view class="flex align-center text-muted ml-auto"
+						@click="openPopup">
+							共9集 <text class="iconfont iconjinru ml-1"></text>
 						</view>
 					</view>
 					<scroll-view scroll-x="true" class="scroll-row mt-2">
-						<view
-							v-for="i in 10"
-							:key="i"
-							class="scroll-row-item rounded border ml-2 p-2 "
-							:class="i === 1 ? 'text-main border-main' : 'text-muted border-light-secondary'"
-							style="width: 340rpx;"
-						>
+						<view v-for="i in 10" :key="i" class="scroll-row-item rounded border ml-2 p-2 " :class="i === 1 ? 'text-main border-main' : 'text-muted border-light-secondary'" style="width: 340rpx;">
 							<text class="font">第 1 集</text>
-							<view class="font-md text-ellipsis">精灵世纪</view>
+							<view class="font-md text-ellipsis">最强发型师</view>
 						</view>
 					</scroll-view>
 				</view>
-				<view class="f-list"><media-list v-for="(item, index) in list" :key="index" :item="item" :index="index"></media-list></view>
-
-				<!-- 弹出选集 -->
+				<view class="f-list">
+					<media-list v-for="(item,index) in list" :key="index"
+					:item="item" :index="index"></media-list>
+				</view>
+				
+				
 				<f-popup ref="popup">
 					<view class="position-absolute bottom-0 left-0 right-0 bg-white animated faster fadeIn" @click.stop="stop">
 						<view style="height: 600rpx;">
@@ -81,9 +69,9 @@
 							<scroll-view scroll-y="true" style="height: 520rpx;">
 								<view class="flex flex-wrap">
 									<view style="width: 50%;box-sizing: border-box;" v-for="i in 10" :key="i" class="p-2">
-										<view class="rounded border p-2 " :class="i === 0 ? 'text-main border-main' : 'text-muted border-light-secondary'">
+										<view class="rounded border p-2 " :class="i === 1 ? 'text-main border-main' : 'text-muted border-light-secondary'">
 											<text class="font">第 1 集</text>
-											<view class="font-md text-ellipsis">最强发型师</view>
+											<view class="font-md text-ellipsis">精灵世纪</view>
 										</view>
 									</view>
 								</view>
@@ -91,8 +79,8 @@
 						</view>
 					</view>
 				</f-popup>
+				
 			</view>
-
 			<!-- 评论 -->
 			<view v-else class="animated fadeIn fast px-3 py-1">
 				<view class="uni-comment-list">
@@ -135,7 +123,6 @@
 				
 			</view>
 			
-			<!-- 评论区结束 -->
 		</scroll-view>
 	</view>
 </template>
