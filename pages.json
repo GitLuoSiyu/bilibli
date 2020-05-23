@@ -135,6 +135,14 @@
             "path" : "pages/activity/activity",
             "style" : {}
         }
+        ,{
+            "path" : "pages/detail-video/detail-video",
+            "style" : {
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

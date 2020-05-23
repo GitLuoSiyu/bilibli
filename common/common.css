@@ -18,7 +18,10 @@
 .bg-main-disabled{
 	background-color: #FB85A7;
 }
-
+/* 边框 */
+.border-main{
+	border-color: #FB7299!important;
+}
 /* 行高 */
 .line-h{
 	line-height: 1.2;
