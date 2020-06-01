@@ -153,6 +153,10 @@
 				}
 			}
         }
+        ,{
+            "path" : "pages/live/live",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
